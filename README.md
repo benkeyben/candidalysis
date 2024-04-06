@@ -27,3 +27,10 @@ KEY PERFORMANCE INDICATORS (KPIs) include
 - Data Modeling: Power BI Desktop for building a relational data model to support analytical queries and reporting.
 - Calculations and Measures: Utilize DAX (Data Analysis Expressions) within Power BI Desktop to create calculated columns and measures for deriving insights from the data.
 - Dashboard Design: Design interactive dashboards within Power BI Desktop to visualize key metrics and facilitate data-driven decision-making for district education stakeholders.
+
+## Extraction, Transformation and Loading 
+I've included youtube video explaining the details of how the raw data was extracted from tables in html files.
+  - Data Model
+    <img src="img/candidalysis-data-model.png" alt="candidalysis data model" style="width:100%;"/>
+  - Some of the DAX created to calculate the Key Performance Indicators
+
