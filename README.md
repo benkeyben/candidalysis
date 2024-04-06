@@ -1,7 +1,7 @@
 ## <h1 align="center"> 2022-2023 CANDIDATES PERFORMANCE: AGGREGATES & SUBJECTS ANALYSIS IN SCHOOLS IN A PARTICULAR DISTRICT IN GHANA </h1>
 <img src="img/candidalysis-banner.png" alt="candidalysis banner" style="width:100%;"/>
 
-## Problem Statement 
+## Project Overview
 The district education department within the Ghana Education Service lacks a comprehensive system for tracking key performance indicators (KPIs) such as enrollment, exam attendance, student aggregates, and subject-grade trends. This absence hampers their ability to effectively compare school and student performance and identify schools with high aggregate scores. There's a pressing need to streamline data collection, analysis, and visualization to facilitate informed decision-making and improve overall educational outcomes.
 KEY PERFORMANCE INDICATORS (KPIs) include
   - Enrolment in Junior High School 3
@@ -28,13 +28,14 @@ KEY PERFORMANCE INDICATORS (KPIs) include
 - Calculations and Measures: Utilize DAX (Data Analysis Expressions) within Power BI Desktop to create calculated columns and measures for deriving insights from the data.
 - Dashboard Design: Design interactive dashboards within Power BI Desktop to visualize key metrics and facilitate data-driven decision-making for district education stakeholders.
 
-## Extraction, Transformation and Loading 
-I've included youtube videos explaining the details of how the raw data was extracted from tables in html files.
+## METHODOLOGY - Extraction, Transformation and Loading (ETL)
+I've included youtube videos explaining the details of how the raw data was extracted from tables in html files, how the primary keys and table relationships were created.
+
 ### Data Model
 <img src="img/candidalysis-data-model.png" alt="candidalysis data model" style="width:100%;"/>
 
 ### DAX USED IN CREATING MEASURES 
-Some of the DAX created to calculate the Key Performance Indicators (KPIs) include:
+Various DAX measures were created to calculate key performance indicators (KPIs) such as enrollment, exam attendance, subject grades, and aggregate scores. These measures enable precise analysis and insights generation.
   - **Enrolment in Junior High School 3**: A measure was created to calculate the total number of students before the enrolment was calculated.
     <img src="img/candidalysis-total-candidates.png" alt="Total Candidates" />
      - *Enrolment = [Total No. students]*
@@ -83,4 +84,16 @@ Some of the DAX created to calculate the Key Performance Indicators (KPIs) inclu
             ),
             [Exams Attendance Count (Prsent)]
         )*
+## Challenges
+Challenges encountered in the project included data quality issues, performance optimization, and data security and privacy concerns. These challenges were addressed through thorough data cleaning, performance testing and optimization, and utilization of Power BI's security features.
+
+## Recommendations
+To address challenges faced during the project:
+  -  Thorough data cleaning was conducted to address data quality issues and ensure consistency.
+  -  Performance testing and optimization techniques were employed to enhance the speed and efficiency of Power BI reports and dashboards.
+  -  Power BI's security features, including row-level security and encryption, were utilized to safeguard sensitive student information and ensure compliance with data protection regulations.
+
+
+
+
 
