@@ -68,7 +68,7 @@ Various DAX measures were created to calculate key performance indicators (KPIs)
                 [Exams Attendance Count (Prsent)]
             )*
 ## Insights Derived from Data Analysis
-I have captured the insights derived from the data analysis process in a YouTube video [here](https://youtu.be/aA3GNJTjufY))
+I have captured the insights derived from the data analysis process in a YouTube video [here](https://youtu.be/aA3GNJTjufY)
 .
 
 ## Challenges
