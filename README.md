@@ -37,30 +37,18 @@ I've included youtube videos explaining the details of how the raw data was extr
 
 ### DAX USED IN CREATING MEASURES 
 Various DAX measures were created to calculate key performance indicators (KPIs) such as enrollment, exam attendance, subject grades, and aggregate scores. These measures enable precise analysis and insights generation.
-  - **Enrolment in Junior High School 3**: A measure was created to calculate the total number of students before the enrolment was calculated.
-    <img src="img/candidalysis-total-candidates.png" alt="Total Candidates" />
-     - *Enrolment = [Total No. students]*
+  - **Enrolment in Junior High School 3**: 
+    - <img src="img/candidalysis-total-candidates.png" alt="Total Candidates" />
+    - *Enrolment = [Total No. students]*
   - **Number of candidates registered**:
      - *Candidates Registered = [Total No. students]*
   - **Number of candidates present during examination**:
-     <img src="img/candidalysis-candidates-present.png" alt="Candidates Present During Examination" />
-  - **Number of candidates absent during examination**:
-     - => *Exams Attendance Count (Absent) = 
-      CALCULATE(
-          [Total No. students],
-          results[overall_attendance_status] = "Absent"
-      )*
+    <img src="img/candidalysis-candidates-present.png" alt="Candidates Present During Examination" />
   - **Candidates Obtaining Grade 1 to 3 in the various subjects**:
       - => *Candidates Obtaining Grades 1- 3 = 
       CALCULATE(
           [Total No. students], 
           results[grades] >= 1 && results[grades] <= 3
-      )*
-   - **Candidates Obtaining Grade 4 to 5 in the various subjects**:
-      - => *Candidates Obtaining Grades 4 - 5 = 
-      CALCULATE(
-          [Total No. students], 
-          results[grades] >= 4 && results[grades] <= 5
       )*
    - **Number of candidates obtaining aggregates 6**:
        - => *Aggregates 6 = 
@@ -68,23 +56,17 @@ Various DAX measures were created to calculate key performance indicators (KPIs)
           [Total No. students], 
           results[aggregates] = 6
       )*
-    - **Number of candidates obtaining aggregates 7 - 15**:
-       - => *Aggregates 7 - 15 = 
-      CALCULATE(
-          [Total No. students], 
-          results[aggregates] >= 7 && results[aggregates] <= 15
-      )*
-      - **% Pass at 30**:
+   - **% Pass at 30**:
        - => *% Pass @ 30 = 
-        DIVIDE(
-            (
-                [Aggregates 6] + 
-                [Aggregates 7 - 15] +
-                [Aggregates 16 - 24] +
-                [Aggregates 25 - 30]
-            ),
-            [Exams Attendance Count (Prsent)]
-        )*
+            DIVIDE(
+                (
+                    [Aggregates 6] + 
+                    [Aggregates 7 - 15] +
+                    [Aggregates 16 - 24] +
+                    [Aggregates 25 - 30]
+                ),
+                [Exams Attendance Count (Prsent)]
+            )*
 ## Insights Derived from Data Analysis
 I have captured the insights derived from the data analysis process in a YouTube video here.
 
