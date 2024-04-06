@@ -37,6 +37,7 @@ I've included youtube videos explaining the details of how the raw data was extr
 Some of the DAX created to calculate the Key Performance Indicators (KPIs) include:
   - **Enrolment in Junior High School 3**: A measure was created to calculate the total number of students before the enrolment was calculated.
      - *Total No. students = DISTINCTCOUNT(results[student_id])*
+    <img src="img/candidalysis-total-candidates.png" alt="Total Candidates" />
      - *Enrolment = [Total No. students]*
   - **Number of candidates registered**:
      - *Candidates Registered = [Total No. students]*
