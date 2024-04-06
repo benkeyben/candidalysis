@@ -3,6 +3,7 @@
 
 ## Project Overview
 The district education department within the Ghana Education Service lacks a comprehensive system for tracking key performance indicators (KPIs) such as enrollment, exam attendance, student aggregates, and subject-grade trends. This absence hampers their ability to effectively compare school and student performance and identify schools with high aggregate scores. There's a pressing need to streamline data collection, analysis, and visualization to facilitate informed decision-making and improve overall educational outcomes.
+
 KEY PERFORMANCE INDICATORS (KPIs) include
   - Enrolment in Junior High School 3
   - Number of candidates registered
