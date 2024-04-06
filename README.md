@@ -1,5 +1,5 @@
 ## <h1 align="center"> 2022-2023 CANDIDATES PERFORMANCE: AGGREGATES & SUBJECTS ANALYSIS IN SCHOOLS IN A PARTICULAR DISTRICT IN GHANA </h1>
-<img src="img/candidalysis.png" alt="candidalysis banner" style="width:100%;"/>
+<img src="img/candidalysis-banner.png" alt="candidalysis banner" style="width:100%;"/>
 
 ## Problem Statement 
 The district education department within the Ghana Education Service lacks a comprehensive system for tracking key performance indicators (KPIs) such as enrollment, exam attendance, student aggregates, and subject-grade trends. This absence hampers their ability to effectively compare school and student performance and identify schools with high aggregate scores. There's a pressing need to streamline data collection, analysis, and visualization to facilitate informed decision-making and improve overall educational outcomes.
