@@ -29,8 +29,58 @@ KEY PERFORMANCE INDICATORS (KPIs) include
 - Dashboard Design: Design interactive dashboards within Power BI Desktop to visualize key metrics and facilitate data-driven decision-making for district education stakeholders.
 
 ## Extraction, Transformation and Loading 
-I've included youtube video explaining the details of how the raw data was extracted from tables in html files.
-  - Data Model
-    <img src="img/candidalysis-data-model.png" alt="candidalysis data model" style="width:100%;"/>
-  - Some of the DAX created to calculate the Key Performance Indicators
+I've included youtube videos explaining the details of how the raw data was extracted from tables in html files.
+### Data Model
+<img src="img/candidalysis-data-model.png" alt="candidalysis data model" style="width:100%;"/>
+
+### DAX USED IN CREATING MEASURES 
+Some of the DAX created to calculate the Key Performance Indicators (KPIs) include:
+  - **Enrolment in Junior High School 3**: A measure was created to calculate the total number of students before the enrolment was calculated.
+     - *Total No. students = DISTINCTCOUNT(results[student_id])*
+     - *Enrolment = [Total No. students]*
+  - **Number of candidates registered**:
+     - *Candidates Registered = [Total No. students]*
+  - **Number of candidates present during examination**:
+     <img src="img/candidalysis-candidates-present.png" alt="Candidates Present During Examination" />
+  - **Number of candidates absent during examination**:
+     - => *Exams Attendance Count (Absent) = 
+      CALCULATE(
+          [Total No. students],
+          results[overall_attendance_status] = "Absent"
+      )*
+  - **Candidates Obtaining Grade 1 to 3 in the various subjects**:
+      - => *Candidates Obtaining Grades 1- 3 = 
+      CALCULATE(
+          [Total No. students], 
+          results[grades] >= 1 && results[grades] <= 3
+      )*
+   - **Candidates Obtaining Grade 4 to 5 in the various subjects**:
+      - => *Candidates Obtaining Grades 4 - 5 = 
+      CALCULATE(
+          [Total No. students], 
+          results[grades] >= 4 && results[grades] <= 5
+      )*
+   - **Number of candidates obtaining aggregates 6**:
+       - => *Aggregates 6 = 
+      CALCULATE(
+          [Total No. students], 
+          results[aggregates] = 6
+      )*
+    - **Number of candidates obtaining aggregates 7 - 15**:
+       - => *Aggregates 7 - 15 = 
+      CALCULATE(
+          [Total No. students], 
+          results[aggregates] >= 7 && results[aggregates] <= 15
+      )*
+      - **% Pass at 30**:
+       - => *% Pass @ 30 = 
+        DIVIDE(
+            (
+                [Aggregates 6] + 
+                [Aggregates 7 - 15] +
+                [Aggregates 16 - 24] +
+                [Aggregates 25 - 30]
+            ),
+            [Exams Attendance Count (Prsent)]
+        )*
 
