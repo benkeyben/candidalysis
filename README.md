@@ -72,13 +72,13 @@ I have captured the insights derived from the data analysis process in a YouTube
 .
 
 ## Challenges
-Challenges encountered in the project included data quality issues, performance optimization, and data security and privacy concerns. These challenges were addressed through thorough data cleaning, performance testing and optimization, and utilization of Power BI's security features.
+Challenges encountered in the project included data quality issues and performance optimization. These challenges were addressed through thorough data cleaning, performance testing and optimization..
 
 ## Recommendations
 To address challenges faced during the project:
   -  Thorough data cleaning was conducted to address data quality issues and ensure consistency.
   -  Performance testing and optimization techniques were employed to enhance the speed and efficiency of Power BI reports and dashboards.
-  -  Power BI's security features, including row-level security and encryption, were utilized to safeguard sensitive student information and ensure compliance with data protection regulations.
+
 
 
 
