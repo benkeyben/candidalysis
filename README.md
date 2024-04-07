@@ -30,7 +30,7 @@ KEY PERFORMANCE INDICATORS (KPIs) include
 - Dashboard Design: Design interactive dashboards within Power BI Desktop to visualize key metrics and facilitate data-driven decision-making for district education stakeholders.
 
 ## METHODOLOGY - Extraction, Transformation and Loading (ETL)
-I've included youtube videos explaining the details of how the raw data was extracted from tables in html files, how the primary keys and table relationships were created. [Click here to access it](https://youtu.be/aA3GNJTjufY)
+I've included youtube videos explaining the details of how the raw data was extracted from tables in html files, how the primary keys and table relationships were created. [Click here to access it](https://youtube.com/playlist?list=PLu51iz8trDWIOtUail_pcpbFVIswaYZ61&si=pksjVzRPjVR68NgA)
 
 ### Data Model
 <img src="img/candidalysis-data-model.png" alt="candidalysis data model" style="width:100%;"/>
