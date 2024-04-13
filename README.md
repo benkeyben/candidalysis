@@ -68,8 +68,7 @@ Various DAX measures were created to calculate key performance indicators (KPIs)
                 [Exams Attendance Count (Present)]
             )*
 ## Insights Derived from Data Analysis
-I have captured the insights derived from the data analysis process in a YouTube video [Click here](https://youtu.be/aA3GNJTjufY). You can also access power bi file (candidalysis.pbix) for your perusal. [Click here](<iframe title="candidalysis" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=bdf09ea1-0687-4fcd-a524-eb7830a0582e&autoAuth=true&ctid=104d8048-fd0c-43d5-a630-fc629e5dab59" frameborder="0" allowFullScreen="true"></iframe>)
-
+I have captured the insights derived from the data analysis process in a YouTube video [Click here](https://youtu.be/aA3GNJTjufY). You can also access power bi file (candidalysis.pbix) for your perusal. [Click here](https://app.powerbi.com/groups/me/reports/bdf09ea1-0687-4fcd-a524-eb7830a0582e?ctid=104d8048-fd0c-43d5-a630-fc629e5dab59&pbi_source=linkShare&bookmarkGuid=8b719650-cf33-449a-b360-ae1474d5b165)
 ## Challenges
 Challenges encountered in the project included data quality issues and performance optimization. These challenges were addressed through thorough data cleaning, performance testing and optimization.
 
