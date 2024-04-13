@@ -1,4 +1,4 @@
-## <h1 align="center"> 2022-2023 CANDIDATES PERFORMANCE: AGGREGATES & SUBJECTS ANALYSIS IN SCHOOLS IN A PARTICULAR DISTRICT IN GHANA </h1>
+<h1 align="center"> 2022-2023 CANDIDATES PERFORMANCE: AGGREGATES & SUBJECTS ANALYSIS IN SCHOOLS IN A PARTICULAR DISTRICT IN GHANA </h1>
 <img src="img/candidalysis-banner.png" alt="candidalysis banner" style="width:100%;"/>
 
 ## Project Overview
