@@ -1,4 +1,4 @@
-## 2022-2023 CANDIDATES PERFORMANCE: AGGREGATES & SUBJECTS ANALYSIS IN SCHOOLS IN A PARTICULAR DISTRICT IN GHANA 
+## 2022-2023 Candidates Performance: Aggregates & Subjects Analysis in Schools in a Particular District in Ghana
 <img src="img/candidalysis-banner.png" alt="candidalysis banner" style="width:100%;"/>
 
 ## Project Overview
