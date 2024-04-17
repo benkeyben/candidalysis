@@ -23,7 +23,7 @@ KEY PERFORMANCE INDICATORS (KPIs) include
 - Employ Data Analysis Expressions (DAX) in Power BI Desktop to create calculated columns and measures, enabling advanced calculations and insights generation.
 - Design and implement an interactive dashboard using Power BI Desktop, leveraging its visualization capabilities to present key metrics and trends in an intuitive and actionable manner.
 
-## Tech Stack
+## Tech Stack and Tools Used
 - Data Extraction and Transformation: Excel Power Query Editor to transform raw HTML data files into a structured CSV format and Power BI Desktop for connecting to CSV files.
 - Data Modeling: Power BI Desktop for building a relational data model to support analytical queries and reporting.
 - Calculations and Measures: Utilize DAX (Data Analysis Expressions) within Power BI Desktop to create calculated columns and measures for deriving insights from the data.
@@ -69,6 +69,7 @@ Various DAX measures were created to calculate key performance indicators (KPIs)
             )*
 ## Insights Derived from Data Analysis
 I have captured the insights derived from the data analysis process in a YouTube playlist [Click here](https://youtu.be/APqgIxjPgWQ). You can also access power bi file (candidalysis.pbix) for your perusal. [Click here](https://app.powerbi.com/groups/me/reports/bdf09ea1-0687-4fcd-a524-eb7830a0582e?ctid=104d8048-fd0c-43d5-a630-fc629e5dab59&pbi_source=linkShare&bookmarkGuid=8b719650-cf33-449a-b360-ae1474d5b165)
+
 ## Challenges
 Challenges encountered in the project included data quality issues and performance optimization. These challenges were addressed through thorough data cleaning, performance testing and optimization.
 
